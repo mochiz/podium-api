@@ -1,24 +1,52 @@
-# README
+# Podium
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+TODO: ビルドステータスを追加する
 
-Things you may want to cover:
+## 必要なもの
 
-* Ruby version
+* 必須
+   * Ruby 2.6.5
+   * PostgreSQL 9.5
+* 任意
+   * AWSアカウント
 
-* System dependencies
+## セットアップ
 
-* Configuration
+```
+$ git clone git@github.com:mochiz/podium-api.git
+$ cd podium-api
+```
 
-* Database creation
+## 環境変数について
 
-* Database initialization
+.env に記述する
 
-* How to run the test suite
+### direnv のインストール
 
-* Services (job queues, cache servers, search engines, etc.)
+TODO: 後で書く
 
-* Deployment instructions
+### dotenv-rails
 
-* ...
+TODO: 後で書く
+
+## ローカルでの起動
+
+```
+$ bin/rails s
+```
+
+サーバーへのアクセスは、ブラウザで[http://localhost:3000/](http://localhost:3000/)にアクセスしてください。
+
+## テスト
+
+セットアップ
+
+    $ bin/rails db:test:prepare
+
+テストの実行。
+
+    $ bin/rspec
+
+## デプロイ
+
+TODO: 後で書く
