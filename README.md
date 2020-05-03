@@ -1,6 +1,6 @@
 # Podium
 
-TODO: ビルドステータスを追加する
+![rspec](https://github.com/mochiz/podium-api/workflows/rspec/badge.svg)
 
 ## 必要なもの
 
